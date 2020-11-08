@@ -1,0 +1,70 @@
+Generar un algoritmo que permite ingresar los gastos de tres hijos de un padre de familia; calcular y mostrar el total de gastos de los hijos del padre de familia.
+
+Algoritmo: 
+
+1. Inicio
+2. Se pide ingresar gasto del primer hijo.
+3. Se pide ingresar gasto del segundo hijo.
+4. Se pide ingresar gasto del tercer hijo.
+5. Se Suman los gastos de los 3 hijos.
+6. Se presenta en pantalla el total de los gastos de los 3 hijos
+7. Fin
+
+---------- Miniespecificacion o Pseudocódigo
+---------- Opción 1
+
+1. Inicio
+
+// declaro las variables
+
+2. gasto_primer_hijo, d[0, n]
+3. gasto_segundo_hijo, d[0, n]
+4. gasto_tercer_hijo, d[0,n]
+5. total_gastos, d[0, n]
+
+// pido datos por teclado - entradas
+
+6. Escribir "Ingresar el gasto del primer hijo"
+7. Leer gasto_primer_hijo. 
+8. Escribir "Ingresar el gasto del segundo hijo"
+9. Leer gasto_segundo_hijo.
+10 Escribir "Ingresar el gasto del tercer hijo"
+11. Leer gasto_tercer_hijo
+
+// proceso
+12. total_de_gastos<-- gastos_primer_hijo + gastos_segundo_hijo + gastos_tercer_hijo
+
+// salida
+
+13. Escribir "El total de gastos es:" + total_de_gastos
+14. Fin
+
+---------- Opción 2
+
+1. Inicio
+
+// declaro las variables
+
+2. gasto_primer_hijo, d[0, n]
+3. gasto_segundo_hijo, d[0, n]
+4. gasto_tercer_hijo, d[0,n]
+5. total_de_gastos, d[0, n]
+
+// pido datos por teclado - entradas
+
+6. <<"Ingresar el gasto del primer hijo"
+7. >> gasto_primer_hijo. 
+8. << "Ingresar el gasto del segundo hijo"
+9. >> gasto_segundo_hijo.
+10 << "Ingresar el gasto del tercer hijo"
+11. Leer gasto_tercer_hijo.
+
+// proceso
+12. total_de_gastos<-- gastos_primer_hijo + gastos_segundo_hijo + gastos_tercer_hijo
+
+// salida
+
+13. <<"El total de gastos es:" + total_gastos
+14. Fin
+
+

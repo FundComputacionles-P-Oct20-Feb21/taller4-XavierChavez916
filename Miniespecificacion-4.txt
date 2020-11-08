@@ -1,0 +1,79 @@
+Generar un algoritmo que permita calcular y mostrar el costo de una computadora de escritorio. La misma es comprada por partes; CPU, teclado, pantalla, ratón.
+
+Algoritmo:
+
+1. Inicio.
+2. Se pide ingresar el costo del CPU.
+3. Se pide ingresar el costo del teclado.
+4. Se pide ingresar el costo de la pantalla.
+5. Se pide ingresar el costo del ratón.
+6. Se suman todos los costos.
+7. Se muestra en pantalla el costo de una computadora de escritorio.
+8. Fin.
+
+---------- Miniespecificacion o Pseudocódigo 
+---------- Opción 1
+
+1. Inicio
+
+// declaro las variables
+
+2. costo_cpu, d[0, n]
+3. costo_teclado, d[0, n]
+4. costo_pantalla, d[0, n]
+5. costo_ratón, d[0, n]
+6. costo_computadora, d[0, n]
+
+// pido datos por teclado - entradas
+
+7. Escribir "Ingrese el costo del CPU"
+8. Leer costo_cpu
+9. Escribir "Ingresar el costo del teclado"
+10. Leer costo_teclado
+11. Escribir "Ingresar el costo de la pantalla"
+12. Leer costo_pantalla
+13. Escribir "Ingresar el costo del ratón"
+14. Leer costo_ratón
+ 
+// proceso
+
+15. costo_computadora <-- costo_cpu + costo_teclado + costo_pantalla + costo_ratón
+
+//salida
+16. Escribir "El costo de la computadora es: " + costo_computadora
+17. Fin
+
+---------- Opción 2
+
+1. Inicio
+
+// declaro las variables
+
+2. costo_cpu, d[0, n]
+3. costo_teclado, d[0, n]
+4. costo_pantalla, d[0, n]
+5. costo_ratón, d[0, n]
+6. costo_computadora, d[0, n]
+
+// pido datos por teclado - entradas
+
+7. << "Ingrese el costo del CPU"
+8. >> costo_cpu
+9. << "Ingresar el costo del teclado"
+10. >> costo_teclado
+11. << "Ingresar el costo de la pantalla"
+12. >> costo_pantalla
+13. << "Ingresar el costo del ratón"
+14. >> costo_ratón
+
+// proceso
+
+15. costo_computadora <-- costo_cpu + costo_teclado + costo_pantalla + costo_ratón
+
+//salida
+16. << "El costo de la computadora es: " + costo_computadora
+17. Fin
+
+
+
+

@@ -1,0 +1,62 @@
+
+Generar un algoritmo que permita calcular y mostrar el valor de la planilla de teléfono de un casa. Se debe ingresar el costo por minutos, el número de minutos consumidos en el mes.
+
+Algoritmo:
+
+1. Inicio.
+2. Se pide ingresar el costo por minutos.
+3. Se pide ingresar el numero de minutos consumidos por el mes.
+4. Se calcula multiplicando el costo por el numero de minutos.
+5. Se presenta en pantalla el valor de la planilla de teléfono de una casa.
+5. Fin
+
+---------- Miniespecificacion o Pseudocódigo 
+---------- Opción 1
+
+1. Inicio
+//declarar variables
+
+2. costo_por_minuto, d[0,n]
+3. número_de_minutos_consumidos_por_el_mes, d[0,n]
+4. valor_planilla, d[0,n]
+
+// pido datos por teclado - entradas
+
+5. Escribir "Ingrese el costo por minuto"
+6. Leer costo_por_minuto
+7. Escribir "Ingrese el número de minutos consumidos por el mes"
+8. Leer número_de_minutos_consumidos_por_el_mes
+
+// proceso
+
+9. valor_planilla<--costo_por_minuto * número_de_minutos_consumidos_por_el_mes
+
+// salida
+
+10. Escribir "El valor de la planilla de teléfono de una casa es:"+valor_planilla
+11. Fin
+
+---------- Opción 2
+
+1. Inicio
+//declarar variables
+
+2. costo_por_minuto, d[0,n]
+3. número_de_minutos_consumidos_por_el_mes, d[0,n]
+4. valor_de_la_planilla, d[0,n]
+
+// pido datos por teclado - entradas
+
+5. << "Ingrese el costo por minuto"
+6. >> costo_por_minuto
+7. << "Ingrese el numero de minutos consumidos por el mes"
+8. >> número_de_minutos_consumidos_por_el_mes
+
+// proceso
+
+9. valor_de_la_planilla<--costo_por_minuto * número_de_minutos_consumidos_por_el_mes
+
+// salida
+
+10. <<"El valor de la planilla de teléfono de una casa es:"+valor_planilla
+11. Fin

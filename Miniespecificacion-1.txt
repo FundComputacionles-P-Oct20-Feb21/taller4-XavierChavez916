@@ -1,0 +1,64 @@
+1. Generar un algoritmo que permite calcular y presentar el área de un triángulo. Los datos deben ser pedidos al usuario.
+ Algoritmo:
+1. Inicio
+2. Se pide ingresar la base
+3. Se pide ingresar la altura
+4. Se calcula el area del triangulo multiplicando su base por la altura
+5. Se realiza la división para 2 
+6. Se presenta en pantalla el resultado del área del triangulo.
+7. Fin
+---------- Miniespecificacion o Pseudocódigo 
+---------- Opción 1
+
+1. Inicio
+//declaro variables
+
+2. base, d[0, n]
+3. altura, d[0, n]
+4. area_triangulo, d[0, n]
+
+// pido datos por teclado - entradas
+
+5. Escribir "Ingresar la base del triangulo"
+6. Leer la base 
+7. Escribir "Ingresar la altura del triangulo"
+8. Leer la altura
+
+// proceso
+
+9. area_triangulo<-- base*altura/2
+
+//salida
+
+10.Escribir "El area del triangulo es:"+ area_triangulo
+11. Fin
+
+---------- Opción 2]
+
+1. Inicio
+//declaro variables
+
+2. base, d[0, n]
+3. altura, d[0, n]
+4. area_triangulo, d[0, n]
+
+// pido datos por teclado - entradas
+
+5. << "Ingresar la base del triangulo"
+6. >> base 
+7. << "Ingresar la altura del triangulo"
+8. >> altura
+
+// proceso
+
+9. area_triangulo<-- base*altura/2
+
+//salida
+
+10. << "El area del triangulo es:"+ areatriangulo
+11. Fin
+
+
+
+
+
